@@ -6,7 +6,7 @@ import Select from "@mui/material/Select";
 
 const FiltrationSelect = ({ value, onChange, options }) => {
   return (
-    <div className="w-full mr-1">
+    <div className="w-2/5 mr-1">
       <FormControl className="w-full" size="big">
         <InputLabel id="demo-simple-select-helper-label">Importance</InputLabel>
         <Select
